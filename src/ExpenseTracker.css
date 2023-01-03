@@ -1,0 +1,76 @@
+.expense-tracker {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.expense-tracker-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.balance {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+.balance.positive {
+  color: green;
+}
+
+.balance.negative {
+  color: red;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expense-form-label {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.expense-form-input {
+  width: 75%;
+  height: 30px;
+  font-size: 1em;
+  border: none;
+  border-bottom: 2px solid #00b8d4;
+}
+
+.expense-form-button {
+  width: 50%;
+  height: 40px;
+  background-color: #00b8d4;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.expense-form-button:hover {
+  background-color: #0052cc;
+}
+
+.expenses-title {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.expenses-list {
+  list-style: none;
+  width: 75%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+.expense {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
