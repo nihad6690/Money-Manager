@@ -29,6 +29,7 @@ function ExpenseTracker() {
           <input
             className="expense-form-input"
             type="text"
+            placeholder="Enter a description"
             value={description}
             onChange={event => setDescription(event.target.value)}
           />
@@ -51,7 +52,7 @@ function ExpenseTracker() {
       <h2 className="expenses-title">Expenses</h2>
       <ul className="expenses-list">
         {expenses.map((expense, index) => (
-          <li className="expense" key={index}>
+          <li className={`expense ${expense.amount < 0 ? 'negative' : 'positive'}`} key={index}>
             {expense.description}: {expense.amount}
           </li>
         ))}
