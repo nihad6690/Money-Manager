@@ -1,7 +1,7 @@
 # Money-Manager
 
 ## About the Project
-Node.js application that manages your money and helps you keep track of your expense. I did this project because I wanted to use Node.js to create a REST API project. Using REST API and also using `https://restcountries.com/ `API to fetch country information, the user can search any country they like to get the information, and then the information from the API is sent to the front-end and displayed with jQuery.
+Node.js application that manages your money and helps you keep track of your expense. This project uses Node.js along with Express.js for the back-end nd React along with CSS for the front-end and MongoDB Atlas is used as the database for this project. I did this project because I wanted to gain a deeper understanding of React, and how to work databases.
 
 ## Built With
 - Node.js
